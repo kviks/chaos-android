@@ -1217,6 +1217,8 @@ class PlayState extends MusicBeatState
 		//#if mobileC
 
 		var curcontrol:HitboxType = DEFAULT;
+		
+		// cur control lol
 
 		if (storyDifficulty == 0)
 			curcontrol = DEFAULT; 
@@ -1239,13 +1241,7 @@ class PlayState extends MusicBeatState
 		_hitbox.visible = false;
 		
 		add(_hitbox);
-		//#end
 
-		// if (SONG.song == 'South')
-		// FlxG.camera.alpha = 0.7;
-		// UI_camera.zoom = 1;
-
-		// cameras = [FlxG.cameras.list[1]];
 		startingSong = true;
 		if (FlxG.save.data.effects)
 		{
